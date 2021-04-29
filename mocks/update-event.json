@@ -1,0 +1,6 @@
+{
+  "body": "{\"content\":\"new world\",\"attachment\":\"new.jpg\"}",
+  "pathParameters": {
+    "id": "1719bac0-a91d-11eb-a725-a12ba68a0c4a"
+  }
+}
