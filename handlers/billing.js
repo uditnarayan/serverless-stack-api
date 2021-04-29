@@ -1,15 +1,6 @@
 import stripePackage from "stripe";
 import handler from "../libs/handler";
-
-function calculateCost(storage) {
-  const rate = storage <= 10
-    ? 4
-    : storage <= 100
-      ? 2
-      : 1;
-
-  return rate * storage * 100;
-}
+import {calculateCost} from '../libs/billing';
 
 export const main = handler(async (event, context) => {
   const { storage, source } = JSON.parse(event.body);
