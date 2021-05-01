@@ -3,7 +3,7 @@
 A Serverless starter that adds ES6, TypeScript, serverless-offline, linting, environment variables, and unit test support. This application provides endpoints to perform CRUD operations on `notes` resource and a `hello` resource for public testing.
 ### Demo
 
-A demo version of this service is hosted on AWS - [`https://zqpu9o0l6k.execute-api.ap-south-1.amazonaws.com/prod/hello`](https://zqpu9o0l6k.execute-api.ap-south-1.amazonaws.com/prod/hello)
+A demo version of this service is hosted on AWS - [`https://cjz96vspp7.execute-api.ap-south-1.amazonaws.com/prod/hello`](https://cjz96vspp7.execute-api.ap-south-1.amazonaws.com/prod/hello)
 
 ## Reference
 
